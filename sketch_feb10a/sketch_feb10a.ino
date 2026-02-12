@@ -1,14 +1,15 @@
-#define BLYNK_TEMPLATE_ID "TMPL32yYAyy7T"
+//Update Blynk Credentials
+#define BLYNK_TEMPLATE_ID "YOUR_TEMPLATE_ID"
 #define BLYNK_TEMPLATE_NAME "Air Quality"
-#define BLYNK_AUTH_TOKEN "BdZMBc_JtNdCV5GleGYyerhHAZBxQ8tZ"
+#define BLYNK_AUTH_TOKEN "YOUR_AUTH_TOKEN"
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
 #include <DHT.h>
 
-// ================= WIFI =================
-char ssid[] = "KSHITIJ";
-char pass[] = "HomeSweetHome";
+// ================= WIFI =================(add credentials)
+char ssid[] = "Wifi Name (with "")";
+char pass[] = "Wifi password (with "")";
 
 // ================= PINS =================
 #define DHT_PIN 4
