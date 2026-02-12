@@ -48,13 +48,12 @@ This system **does NOT spam alerts**.
 | Resistors | As required |
 | Jumper Wires | As required |
 
-## For Blynk Setup and pin configuration check SETUP.md
-
+## For Blynk Setup and pin configuration, check [SETUP.md](SETUP.md)
 
 ## Build and Upload
 1. Install Arduino IDE and ESP32 board support.
 2. Install libraries: Blynk and DHT sensor library.
-3. Open [sketch_feb10a.ino](sketch_feb10a.ino).
+3. Open [sketch_feb10a/sketch_feb10a.ino](sketch_feb10a/sketch_feb10a.ino).
 4. Update WiFi SSID/password and Blynk auth token.
 5. Select the correct board and COM port.
 6. Upload and open Serial Monitor at 9600 baud.
